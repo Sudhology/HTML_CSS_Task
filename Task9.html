@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 9</title>
+    <style>
+      #sidenav a {
+        left: -80px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        transition: 0.3s;
+        font-size: 20px;
+        padding: 15px;
+        position: absolute;
+        width: 100px;
+        text-decoration: none;
+      }
+      #sidenav a:hover {
+        left: 0;
+      }
+      #HOME {
+        top: 120px;
+        background-color: rgb(2, 164, 2);
+      }
+      #HTML {
+        top: 180px;
+        background-color: #009dd7;
+      }
+      #JAVA {
+        top: 240px;
+        background-color: rgb(229, 62, 16);
+      }
+      #CSS {
+        top: 300px;
+        background-color: rgb(133, 132, 132);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidenav" class="sidenav">
+      <a href="" id="HOME"> HOME</a>
+      <a href="" id="HTML"> HTML</a>
+      <a href="" id="JAVA"> JAVA</a>
+      <a href="" id="CSS"> CSS</a>
+    </div>
+    <div id="content" style="margin-left: 200px">
+      <h1>Hoverable Sidenav Button</h1>
+      <p>Hover over the button in the left side navigation to open them</p>
+    </div>
+  </body>
+</html>

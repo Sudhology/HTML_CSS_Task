@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7</title>
+    <style>
+      .box1 {
+        height: 300px;
+        width: 200px;
+        border: 1px solid black;
+      }
+      .box2 {
+        height: 75px;
+        width: 450px;
+        border: 1px solid black;
+      }
+      .Vertical {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .Horizontal {
+        padding: 0px;
+        overflow: auto;
+        margin: 4px;
+        list-style-type: none;
+      }
+      .vdesign,
+      #id1 {
+        padding: 8px;
+        display: block;
+        background-color: skyblue;
+        color: blue;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .vdesign :hover {
+        background-color: orange;
+        color: white;
+      }
+      #id1 {
+        background-color: orange;
+        color: white;
+      }
+      .hdesign,
+      #id2 {
+        background-color: lightgrey;
+        color: blue;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        padding: 15px;
+      }
+      .hdesign2 :hover {
+        background-color: gray;
+        color: white;
+      }
+      #id2 {
+        background-color: gray;
+        color: white;
+      }
+      .hdesign2 {
+        float: left;
+        border-right: 1px solid blue;
+        font-size: 20px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vertical Navigation Bar</h1>
+    <div class="box1">
+      <ul class="Vertical">
+        <li class="vdesign"><a href="" target="_blank" id="id1">Home</a></li>
+        <li class="vdesign">
+          <a
+            href="https://www.w3schools.com/java/default.asp"
+            target="_blank"
+            class="vdesign"
+            >Java</a
+          >
+        </li>
+        <li class="vdesign">
+          <a
+            href="https://www.w3schools.com/css/default.asp"
+            target="_blank"
+            class="vdesign"
+            >CSS</a
+          >
+        </li>
+        <li class="vdesign">
+          <a
+            href="https://www.w3schools.com/html/default.asp"
+            target="_blank"
+            class="vdesign"
+            >HTML</a
+          >
+        </li>
+        <li class="vdesign">
+          <a
+            href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp"
+            target="_blank"
+            class="vdesign"
+            >Bootstrap</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h1>Horizontal Navigation Bar</h1>
+    <div class="box2">
+      <ul class="Horizontal">
+        <li class="hdesign2"><a href="" target="_blank" id="id2">Home</a></li>
+        <li class="hdesign2">
+          <a
+            href="https://www.w3schools.com/java/default.asp"
+            target="_blank"
+            class="hdesign"
+            >Java</a
+          >
+        </li>
+        <li class="hdesign2">
+          <a
+            href="https://www.w3schools.com/html/default.asp"
+            target="_blank"
+            class="hdesign"
+            >HTML</a
+          >
+        </li>
+        <li class="hdesign2">
+          <a
+            href="https://www.w3schools.com/css/default.asp"
+            target="_blank"
+            class="hdesign"
+            >CSS</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
